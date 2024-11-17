@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    /* background-color:rgb(177, 207, 177); */
+    background-color: rgba(177, 207, 177, 0.8);
+    position:sticky;
+    top:0;
+    backdrop-filter: blur(10px);
+    z-index: 1;
+    padding: 15px;
+    padding-right: 30px;
+}
+ul{
+    list-style-type: none;  
+    gap: 60px;
+    display: flex;
+    margin-left: auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
