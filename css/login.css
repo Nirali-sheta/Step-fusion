@@ -49,6 +49,8 @@ button{
     background-color:var(--primary-color);
     border: none;
     border-radius: 8px;
-
     color: white;
+}
+button:hover {
+    background-color:rgb(31, 120, 31);
 }
