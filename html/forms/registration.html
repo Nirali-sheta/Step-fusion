@@ -6,62 +6,131 @@
     <title>Document</title>
     <link href="/css/const.css" rel="stylesheet">
     <style>
-        .container {
+       
+
+        body {
+            font-family: var(--font-family);
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
             display: flex;
-            justify-content: space-between;
-            width: 80%; 
+            justify-content: center; 
+            align-items: center; 
+            height: 100vh; 
+            background-color: white; 
         }
 
-        .registrationinfo{
-            margin-top: 30px ;
+        .container {
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            flex-wrap: wrap; 
+            width: 100%;
+            max-width: 1200px; 
+            gap: 40px; 
+            padding: 20px;
+            
+        }
+
+        .container img {
+            flex: 1; 
+            max-width: 50%; 
+            height: auto; 
+            
+        }
+
+        .registrationinfo {
+            flex: 1; 
+            max-width: 50%;
             width: 100%;
         }
 
-     .basicinfo{
+        .basicinfo {
             display: flex;
             flex-direction: column;
-            background-color:transparent;
-            margin-left: 130px;
-            align-items: center;
-            height:500px ;
-            width: 350px;
-            border: none;
-            border-radius: 6px;
+            align-items: center; 
+            width: 90%;
             padding: 20px;
-            color: var(--font-family);
+            background-color: white;
+            gap: 15px; 
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-            gap:15px;
-            /* text-align:center */
+            border-radius: 6px;
         }
 
-        label{
+        label {
             font-size: var(--font-size);
-            text-align: left;
             font-weight: bold;
             width: 100%;
+            text-align: left;
         }
 
-        input,select{
+        input,
+        select {
             width: 100%;
-            /* margin-bottom: 20px; */
             padding: 8px;
             border-radius: 5px;
-            border:var(--border);
-            box-sizing:border-box;
+            border: var(--border);
+            box-sizing: border-box;
         }
 
-        input:hover,select:hover{
-             border-color: var(--input-hover-border);
-        }   
-        button{
+        input:hover,
+        select:hover {
+            border-color: var(--input-hover-border);
+        }
+
+        button {
             width: 100%;
             padding: 10px;
             background-color: var(--primary-color);
-            border:none;
+            border: none;
             color: white;
             border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color:rgb(31, 120, 31);
+        }
+
+        
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column; 
+            }
+
+            .container img {
+                max-width: 80%; 
+            }
+
+            .registrationinfo {
+                max-width: 100%; 
+            }
+
+            .basicinfo {
+                padding: 15px;
+                gap: 10px;
+            }
+        }
+
+        
+        @media (max-width: 480px) {
+            .basicinfo {
+                padding: 10px;
+                gap: 8px;
+            }
+
+            label {
+                font-size: 14px;
+            }
+
+            input,
+            select,
+            button {
+                font-size: 14px;
+            }
         }
     </style>
+ 
 </head>
 <body>
     <div class="container">
