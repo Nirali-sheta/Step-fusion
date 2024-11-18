@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/css/const.css" rel="stylesheet">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 80%; 
+        }
+
+        .registrationinfo{
+            margin-top: 30px ;
+            width: 100%;
+        }
+
+     .basicinfo{
+            display: flex;
+            flex-direction: column;
+            background-color:transparent;
+            margin-left: 130px;
+            align-items: center;
+            height:500px ;
+            width: 350px;
+            border: none;
+            border-radius: 6px;
+            padding: 20px;
+            color: var(--font-family);
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            gap:15px;
+            /* text-align:center */
+        }
+
+        label{
+            font-size: var(--font-size);
+            text-align: left;
+            font-weight: bold;
+            width: 100%;
+        }
+
+        input,select{
+            width: 100%;
+            /* margin-bottom: 20px; */
+            padding: 8px;
+            border-radius: 5px;
+            border:var(--border);
+            box-sizing:border-box;
+        }
+
+        input:hover,select:hover{
+             border-color: var(--input-hover-border);
+        }   
+        button{
+            width: 100%;
+            padding: 10px;
+            background-color: var(--primary-color);
+            border:none;
+            color: white;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <img src="/html/src/shoes shopping.avif">
+        <div class="registrationinfo">
+            <div class="basicinfo">
+               <h1>Basic Info</h1>
+                <input type="text" placeholder="Enter your firstname" required>
+               
+                <input type="text" placeholder="Enter your lastname">
+             
+                <input type="tel" placeholder="Mobile number"  required>
+              
+                <input type="email" placeholder="Email" required>
+                <label for="dob">Date of Birth</label>
+                <input type="date"id="dob" required>
+                <label>gender</label>
+                <select>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <button>Next</button>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</html>
