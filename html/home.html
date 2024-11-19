@@ -7,24 +7,47 @@
     <link href="/css/navbar.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
-        .container{
-            display: flex;
-            gap: 30px;
-            margin: 20px;
-            justify-content: center;
-            align-items: center;
+        h1{
+            text-align: center;
         }
-       .container div{
-            border-radius: 5px;
-            box-shadow:0 4px 8px rgba(0,0,0,0.1);
-            /* border: 1px solid #ccc; */
+        .para1{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 60px;
+            font-weight: 900;
+            text-align: center;
+        }
+        .image-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-container img {
+            display: block;
+        }
+
+        .button {
+            position: absolute;
+            top: 94%; /* Adjust this for placement */
+            left: 59%; /* Adjust this for placement */
+            transform: translate(-50%, -50%);
+            background-color: black;
+            border-radius: 20px;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .button:hover {
             background-color: transparent;
-            height: 300px;
-            width: 200px;
+            border: 1px solid black;
+            color: black;
         }
-        img{
-            height:200px;
-            width: 200px;
+    
+        nav h1{
+            margin-left: 10px;
         }
         nav li {
             margin-top: 10px;
@@ -33,6 +56,12 @@
         nav li a:hover{
             color: grey;
             text-decoration: underline;
+        }
+        i{
+            font-size: 20px;
+        }
+        i:hover{
+            color: gray;
         }
         .searchbar{
             background-color: gray;
@@ -78,6 +107,12 @@
         .kids:hover{
             opacity: 50%;
         }
+        footer{
+            margin-top: 20px;
+            background-color: gainsboro;
+            width: 100%;
+            height: 100px;
+        } 
     </style>
 
 </head>
@@ -101,53 +136,68 @@
         <a href="/html/forms/women.html"><div class="women"></div></a>
         <a href="/html/forms/kid.html"><div class="kids"></div></a>
     </div>
-    
-    <div class="container">
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Man collection</p> 
+    <div>
+        <p class="para1">UNBEATABLE COMFORT </p>
+        <div class="image-container">
+            <img src="/html/src/home.jpg" height="680px" width="500px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
         </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>women collection</p> 
+        <div class="image-container">
+            <img src="/html/src/home2.jpg" height="680px" width="500px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
         </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Kids collection</p> 
+        <div class="image-container">
+            <img src="/html/src/home3.jpg" height="680px" width="500px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
         </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Man collection</p> 
-        </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>women collection</p> 
-        </div>
-        
     </div>
-    <div class="container">
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Man collection</p> 
-        </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>women collection</p> 
-        </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Kids collection</p> 
-        </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>Man collection</p> 
-        </div>
-        <div>
-            <img src="src/men/Mens Prada.jpeg">  
-            <p>women collection</p> 
-        </div>
-        
+    <div class="image-container">
+        <P class="para1">DEALS & OFFERS</P>
+        <img src="/html/src/home4.gif" height="680px" width="1701px" style="margin-left: 100px;">
+        <button class="button" style="left: 54%;">Check now</button>
     </div>
+    <div>
+        <P class="para1">TRENDING</P>
+        <div class="image-container">
+            <img src="/html/src/home6.jpg" height="450px" width="345px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
+        </div>
+        <div class="image-container">
+            <img src="/html/src/home7.jpg" height="450px" width="345px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
+        </div>
+        <div class="image-container">
+            <img src="/html/src/home8.jpg" height="450px" width="345px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
+        </div>
+        <div class="image-container">
+            <img src="/html/src/home9.jpg" height="450px" width="345px" style="margin-left: 100px;">
+            <button class="button">Shop now</button>
+        </div>
+    </div>
+  
+        <footer style=" color:black; padding: 20px; text-align: center;">
+            <div style="margin-bottom: 10px;">
+                <a href="https://www.instagram.com" target="_blank" style="margin: 0 10px; color: black; text-decoration: none;">
+                    <i class="fab fa-instagram"></i> 
+                </a>
+                <a href="https://www.facebook.com" target="_blank" style="margin: 0 10px; color: black; text-decoration: none;">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.twitter.com" target="_blank" style="margin: 0 10px; color: black; text-decoration: none;">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <div style="margin-bottom: 10px; font-size: 14px;">
+                &COPY; 2024 CN FOOTWEAR. All rights reserved.
+            </div>
+            <div style="font-size: 12px;">
+                <a href="terms-and-conditions.html" style="color: black; text-decoration: none;">Terms and Conditions</a> | 
+                <a href="privacy-policy.html" style="color: black; text-decoration: none;">Privacy Policy</a>
+            </div>
+        </footer>
+        
+
    
 </body>
 </html>
