@@ -1,0 +1,146 @@
+@import "const.css";
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    width: 100%;
+    max-width: 1200px; 
+    gap: 40px; 
+    padding: 20px;
+    
+}
+
+.container img {
+    flex: 1; 
+    max-width: 50%; 
+    height: auto; 
+    
+}
+
+.registrationinfo {
+    flex: 1; 
+    max-width: 50%;
+    width: 100%;
+}
+
+.section.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 80%;
+    padding: 20px;
+    background-color: white;
+    gap: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+label {
+    font-size: var(--font-size);
+    font-weight: bold;
+    width: 75%;
+    text-align: left;
+}
+
+input,
+select {
+    width: 75%;
+    padding: 8px;
+    border-radius: 5px;
+    border: var(--border);
+    box-sizing: border-box;
+}
+
+input:hover,
+select:hover ,
+textarea:hover{
+    border-color: var(--input-hover-border);
+}
+
+textarea{
+    padding: 8px;
+    resize: none;
+    height: 50px;
+    width: 75%;
+    border: var(--border);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.section{
+    width: 100%;
+    display: none;
+}
+
+.input-sec2{
+    direction: flex;
+    justify-content:space-between;
+    width: 75%;
+}
+
+#section2 input{
+    width:32%;
+    padding: 10px;
+    
+}
+
+button {
+    width: 35%;
+    padding: 15px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    justify-content: flex-end;
+    width: 75%;
+    gap: 10px;
+}
+
+
+button:hover {
+    background-color:rgb(31, 120, 31);
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; 
+    }
+
+    .container img {
+        max-width: 80%; 
+    }
+
+    .registrationinfo {
+        max-width: 100%; 
+    }
+
+    .basicinfo {
+        padding: 15px;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .basicinfo {
+        padding: 10px;
+        gap: 8px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    button {
+        font-size: 14px;
+    }
+}
