@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+}
+.para1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+}
+
+.button {
+    position: absolute;
+    top: 94%; /* Adjust this for placement */
+    left: 59%; /* Adjust this for placement */
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+nav h1{
+    margin-left: 10px;
+}
+nav li {
+    margin-top: 10px;
+    font-size: 20px;
+}
+nav li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+i{
+    font-size: 20px;
+}
+i:hover{
+    color: gray;
+}
+.searchbar{
+    background-color: gray;
+    height: 50px;
+    width: 920px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.category{
+    display: flex;
+    gap: 30px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.men{
+    background-image: url(/html/src/category/men.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.women{
+    background-image: url(/html/src/category/woman.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.kids{
+    background-image: url(/html/src/category/kid.jpg);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.men:hover{
+    opacity: 50%;
+}
+.women:hover{
+    opacity: 50%;
+}
+.kids:hover{
+    opacity: 50%;
+}
+footer{
+    margin-top: 20px;
+    background-color: gainsboro;
+    width: 100%;
+    height: 100px;
+} 
