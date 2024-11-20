@@ -43,6 +43,7 @@ nav h1{
 nav li {
     margin-top: 10px;
     font-size: 20px;
+    justify-content: space-between;
 }
 nav li a:hover{
     color: grey;
@@ -101,6 +102,6 @@ i:hover{
 footer{
     margin-top: 20px;
     background-color: gainsboro;
-    width: 100%;
+    width: 98%;
     height: 100px;
 } 
