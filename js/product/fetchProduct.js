@@ -1,33 +1,24 @@
+// fetching product based on subcategory
+
 import footwear from "../const.js";
 
 
-// used to fetch params from url
-const Params=new URLSearchParams(window.location.search);
+const params=new URLSearchParams(window.location.search);
 
-const category=Params.get('category');
+const category=params.get('category');
+const subcategory=params.get('subcategory');
 
+function displayProduct(category,subcategory){
+    const container=document.getElementById("container");
+    const products=footwear[category][subcategory];
 
-function displayProductByCategory(category){
-    const productResult=document.getElementById('container');
-
-    
-    
-    const products=footwear[category];
-    
     if(products){
-
-        products.forEach(product=>{
+        products.forEach(product => {
             const productContainer=document.createElement("div");
-            productContainer.classList.add('product')
-            productResult.appendChild(productContainer);
-
-            const name=document.createElement('h3');
-            name.textContent=product.name;
-            productContainer.appendChild(name);
+            productContainer.textContent=product.name;
+            container.appendChild(productContainer);
         });
     }
-
 }
 
-displayProductByCategory(category);
-
+displayProduct(category,subcategory);

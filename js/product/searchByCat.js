@@ -2,7 +2,7 @@
 // it will redirect based on selected category
 
 function redirectToSearchResult(category){
-    window.location.href=`/html/productInfo/productResult.html?category=${category}`;
+    window.location.href=`/html/productInfo/subCategoryResult.html?category=${category}`;
 }
 
 document.getElementById("men").addEventListener("click",function(){
