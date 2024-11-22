@@ -13,19 +13,27 @@ function displayProductByCategory(category){
     
     // fetching sub categories like shoes,sandel etc based on main category like men,women
     const subCategories=footwear[category];
-    console.log(subCategories);
-    const subCategoryContainer=document.getElementById("container");
+    const subcategoryList=document.querySelector(".subcategory-list");
+    const subcategoryItem=document.querySelector(".category");
+
     if(subCategories){
 
        Object.keys(subCategories).forEach(subcat=>{
         console.log(subcat);
+       
+        // it will copy the div inside html code dynamically
+        const item=subcategoryItem.cloneNode(true);
 
-         const subCategoryLink = document.createElement("a");
-         subCategoryLink.href = `/html/productInfo/productResult.html?category=${category}&subcategory=${subcat}`;
-         subCategoryLink.textContent=subcat;
-         subCategoryLink.style.display="block";
-         subCategoryContainer.appendChild(subCategoryLink);
-       })
+        item.querySelector("a").href=`/html/productInfo/productResult.html?category=${category}&subcategory=${subcat}`;
+        item.querySelector("img").src=subCategories[subcat].url;
+        console.log(subCategories[subcat].url);
+        item.querySelector("span").textContent=subcat;
+        subcategoryList.appendChild(item);
+
+         
+        })
+        //  it removes the structure of html means default divs removed
+      subcategoryItem.remove();
     }
 
 }

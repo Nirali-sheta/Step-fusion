@@ -10,7 +10,7 @@ const subcategory=params.get('subcategory');
 
 function displayProduct(category,subcategory){
     const container=document.getElementById("container");
-    const products=footwear[category][subcategory];
+    const products=footwear[category][subcategory].products;
 
     if(products){
         products.forEach(product => {
