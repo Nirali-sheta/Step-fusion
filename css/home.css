@@ -37,18 +37,7 @@ h1{
     color: black;
 }
 
-nav h1{
-    margin-left: 10px;
-}
-nav li {
-    margin-top: 10px;
-    font-size: 20px;
-    justify-content: space-between;
-}
-nav li a:hover{
-    color: grey;
-    text-decoration: underline;
-}
+
 i{
     font-size: 20px;
 }

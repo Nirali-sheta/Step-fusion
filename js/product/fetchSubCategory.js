@@ -1,42 +1,41 @@
-import footwear from "../const.js";
+
+import subcategories from "../data/subcategory.js";
 
 
 // used to fetch params from url
-const Params=new URLSearchParams(window.location.search);
+const Params=new URLSearchParams(location.search);
 
 const category=Params.get('category');
-
+console.log(category);
 
 function displayProductByCategory(category){
-    
+    // filter subcategories based on categoryId
+    const filteredsubcategories=subcategories.filter(subcat=>{
+        return subcat.categoryId==parseInt(category);
+    });
+  
 
-    
-    // fetching sub categories like shoes,sandel etc based on main category like men,women
-    const subCategories=footwear[category];
     const subcategoryList=document.querySelector(".subcategory-list");
-    const subcategoryItem=document.querySelector(".category");
+    const subcategoryItem=document.querySelector(".subcategory");
 
-    if(subCategories){
 
-       Object.keys(subCategories).forEach(subcat=>{
-        console.log(subcat);
-       
-        // it will copy the div inside html code dynamically
-        const item=subcategoryItem.cloneNode(true);
+    if(filteredsubcategories.length>0){
+       filteredsubcategories.forEach(subcat=>{  
+          //  cloneNode is used to duplicate of subcategoryItem dynamically
+           const item=subcategoryItem.cloneNode(true);
+           item.querySelector("a").href=`/html/productInfo/productResult.html?subcategory=${subcat.id}`;
+           item.querySelector("img").src=subcat.url;
+           item.querySelector("span").textContent=subcat.name;
+  
+          subcategoryList.appendChild(item);
+           
+       })
+      }  
+    //  it removes the structure of html means default divs removed
+    subcategoryItem.remove();
+  }
 
-        item.querySelector("a").href=`/html/productInfo/productResult.html?category=${category}&subcategory=${subcat}`;
-        item.querySelector("img").src=subCategories[subcat].url;
-        console.log(subCategories[subcat].url);
-        item.querySelector("span").textContent=subcat;
-        subcategoryList.appendChild(item);
 
-         
-        })
-        //  it removes the structure of html means default divs removed
-      subcategoryItem.remove();
-    }
-
-}
 
 displayProductByCategory(category);
 
