@@ -1,6 +1,7 @@
 // fetching product based on subcategory
 
 import products from "../data/product.js";
+import addToWishlist from "../features/wishlist/addToWishlist.js"
 
 const params=new URLSearchParams(location.search);
 
@@ -27,10 +28,18 @@ function displayProduct(products){
         productCard.querySelector(".product-info h3").textContent=product.name;
         productCard.querySelector(".product-info p").textContent=product.description;
 
-        const wishlist=productCard.querySelector(".product-buttons .wishlist-btn");
-        console.log(wishlist)
+        const wishlist=productCard.querySelector(".product-buttons .wishlist-btn i");
+
+        const wishlistProducts=JSON.parse(localStorage.getItem('wishlist')) || [];
+        const exists=wishlistProducts.find(item=>item.id===product.id);
+
+        // if product exists in wishlist, add 'added' class to change color of heart
+        if(exists){
+            wishlist.classList.add("added");
+        }
         wishlist.addEventListener("click",function(){
-            addToCart(product);
+            // wishlist parameter is passed to add to cart and remove by clicking icon
+            addToWishlist(product,wishlist);
         })
         productList.appendChild(productCard);
     

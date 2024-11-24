@@ -69,6 +69,9 @@
           transition: all 0.3s ease;
         }
     
+        .added{
+           color: red;
+        }
         .product-buttons button:hover {
           background-color: #fff;
           color: #000;
