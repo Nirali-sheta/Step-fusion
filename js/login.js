@@ -1,5 +1,4 @@
 
-
 function handleButtonClick(event) {
     event.preventDefault(); 
 
@@ -7,12 +6,36 @@ function handleButtonClick(event) {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
-    // Log values to the console
-    console.log("Email:", email);
-    console.log("Password:", password);
+    const emailError=document.getElementById("emailError");
+    const passwordError=document.getElementById("passwordError");
 
-    // Display an alert with the values
-    alert(`Email: ${email}\nPassword: ${password}`);
+    if(!email){
+        emailError.innerHTML="email is requied!"
+        emailError.classList.add("show");
+    }
+    else{
+        emailError.classList.remove("show");
+    }
 
-    window.location.href='/html/home.html';
+    if(!password){
+        passwordError.innerHTML="password is requied!"
+        passwordError.classList.add("show");
+    }
+    else{
+        passwordError.classList.remove("show");
+    }
+
+    // getting users array from localstorage
+    const users=JSON.parse(localStorage.getItem("users")) || [];
+    const user=users.find(user=>user.email===email && user.password===password);
+
+    // if user is exist then allowed to login
+    if(user){
+        location.href='/html/home.html';
+
+    }
+    else{
+        alert("Invalid username or password");
+    }
+
 }

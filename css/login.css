@@ -54,3 +54,16 @@ button{
 button:hover {
     background-color:rgb(31, 120, 31);
 }
+
+.error-msg{
+    color: red;
+    font-size: 12px;
+    width: 75%;
+    text-align: right;
+   
+    display: none;
+}
+/* if any error then show */
+.show{
+    display: block;
+}

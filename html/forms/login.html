@@ -6,21 +6,23 @@
     <title>Login page</title>
     <link href="/css/const.css"  rel="stylesheet">
     <link href="/css/login.css" rel="stylesheet">
-    <script src="/js/login.js"></script>   
+   
 </head>
 <body>
-    <form method="get" action="/html/home.html">
+    <form novalidate>
         <div class="container">
            
                 <h1>Login</h1>
-                <input type="text" id="email" placeholder="Enter your email" required>
-                <input type="password" id="password" placeholder="Enter password" required> 
+                <input type="text" id="email" placeholder="Enter your email*" required>
+                <div class="error-msg" id="emailError"></div>
+                <input type="password" id="password" placeholder="Enter password*" required> 
+                <div class="error-msg" id="passwordError"></div>
         
                 <button onclick="handleButtonClick(event)">
                     Login
                 </button>         
         </div>
     </form>
-
+    <script src="/js/login.js"></script>   
 </body>
 </html>

@@ -5,35 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/css/registration.css" rel="stylesheet">
-    <script src="/js/registration.js"></script>
- 
 </head>
 <body>
+    
+    <form  novalidate>
     <div class="container">
-
+      
         <img src="/html/src/shoes shopping.avif">
         <div class="registrationinfo">
             <div class="basicinfo">
                 <div class="section active" id="section1">
 
                     <h1>Basic Info</h1>
-                     <input type="text" placeholder="Enter your firstname" required>
+                     <input type="text"   id="firstname" placeholder="Enter your firstname*" required>
+                     <div class="error-msg" id="firstnameError"></div>
                     
-                     <input type="text" placeholder="Enter your lastname">
-                  
-                     <input type="tel" placeholder="Mobile number"  required>
-                   
-                     <input type="email" placeholder="Email" required>
+                     <input type="text" id="lastname" placeholder="Enter your lastname">
+                     <div class="error-msg" id="lastnameError"></div>
+                     
+                     <input type="tel"  id="mobile" placeholder="Mobile number*"  required>
+                     <div class="error-msg" id="mobileError"></div>
+                     
+                     <input type="email" id="email" placeholder="Email*" required>
+                     <div class="error-msg" id="emailError"></div>
+
                      <label for="dob">Date of Birth</label>
-                     <input type="date"id="dob" required>
+                     <input type="date" id="dob" required>
+                     <div class="error-msg" id="dobError"></div>
+
                      <label>gender</label>
-                     <select>
+                     <select id="gender" required>
+                         <option value="" disabled selected>Select gender</option>
                          <option value="male">Male</option>
                          <option value="female">Female</option>
                          <option value="other">Other</option>
                      </select>
+                     <div class="error-msg" id="genderError"></div>
+
                      <div class="button-container">
-                         <button onclick="goNext()">Next</button>
+                         <button type="button" onclick="goNext()">Next</button>
                     </div>
             
                  </div>
@@ -43,15 +53,19 @@
             <div class="locationInfo">
                 <div class="section" id="section2">
                     <h1>Location Info</h1>
-                    <textarea id="address" placeholder="Enter your address"></textarea>
+                    <textarea id="address" placeholder="Enter your address*" required></textarea>
+                    <div class="error-msg" id="addressError"></div>
                     <div class="input-sec2">
-                        <input type="text"  placeholder="City">
-                        <input type="text"  placeholder="State">
-                        <input type="text"  placeholder="Country">         
+                        <input type="text" id="city" placeholder="City*" required>
+                        <div class="error-msg" id="cityError"></div>
+                        <input type="text" id="state" placeholder="State*" required>
+                        <div class="error-msg" id="stateError"></div>
+                        <input type="text" id="country" placeholder="Country*" required>  
+                        <div class="error-msg" id="countryError"></div>       
                     </div>
                     <div class="button-container">
-                        <button onclick="goPrevious()">Previous</button>
-                        <button onclick="goNext()">Next</button>
+                        <button type="button" onclick="goPrevious()">Previous</button>
+                        <button type="button" onclick="goNext()">Next</button>
                     </div>
                 </div>
                 
@@ -61,19 +75,25 @@
             <div class="Set password">
                 <div class="section" id="section3">
                     <h1>Create Password</h1>
-                    <input type="text" placeholder="Create new password">
-                    <input type="text" placeholder="Confirm your password">
+                    <input type="password" id="password" placeholder="Create new password*" required>
+                    <div class="error-msg" id="passwordError"></div>       
+
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password*" required>
+                    <div class="error-msg" id="confirmPasswordError"></div>       
+
                     <div class="button-container">
 
-                        <button onclick="goPrevious()">Previous</button>
-                        <button onclick="handleSubmit()">Submit</button>
+                        <button type="button" onclick="goPrevious()">Previous</button>
+                        <button onclick="handleSubmit(event)">Submit</button>
                     </div>
 
                 </div>
                 
             </div>
         </div>
+        
     </div>
-  
+</form>
+    <script  type="module"  src="/js/registration.js"></script>
 </body>
 </html>
