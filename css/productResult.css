@@ -1,20 +1,13 @@
 
-        * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-        }
-    
-        body {
-          font-family: Arial, sans-serif;
-          background-color: #f4f4f4;
+       
+        .container{
           display: flex;
           flex-wrap: wrap;
-         justify-content: space-evenly;
-
+          background-color: #f4f4f4;
+          justify-content: space-evenly;
         }
-    
         .product-card {
+          
           width: 300px;
           background-color: #fff;
           border: 1px solid #ddd;
@@ -69,9 +62,6 @@
           transition: all 0.3s ease;
         }
     
-        .added{
-           color: red;
-        }
         .product-buttons button:hover {
           background-color: #fff;
           color: #000;
