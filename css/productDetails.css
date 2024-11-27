@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.product-page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.product-images {
+    flex: 1 1 50%;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-images img {
+    max-width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.product-details {
+    flex: 1 1 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-details h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 1.8rem;
+    color:gray ;
+    margin: 20px 0;
+}
+
+.sizes, .colors, .ratings {
+    margin-bottom: 20px;
+}
+
+.size-options span, .color-options span {
+    display: inline-block;
+    margin: 5px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.size-options span:hover, .color-options span:hover {
+    border-color: goldenrod;
+}
+
+.color {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.color.brown {
+    background-color: #8B4513;
+}
+
+.color.beige {
+    background-color: #F5F5DC;
+}
+
+.btn {
+    display: inline;
+    justify-content: space-between;
+    padding: 15px;
+    margin-left: 28px;
+    padding-left: 130px;
+    padding-right: 130px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
