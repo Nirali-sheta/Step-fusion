@@ -10,7 +10,7 @@ function handleButtonClick(event) {
     const passwordError=document.getElementById("passwordError");
 
     if(!email){
-        emailError.innerHTML="email is requied!"
+        emailError.innerHTML="Email is requied!"
         emailError.classList.add("show");
     }
     else{
@@ -18,13 +18,14 @@ function handleButtonClick(event) {
     }
 
     if(!password){
-        passwordError.innerHTML="password is requied!"
+        passwordError.innerHTML="Password is requied!"
         passwordError.classList.add("show");
     }
     else{
         passwordError.classList.remove("show");
     }
 
+    if(!email || !password) return;
     // getting users array from localstorage
     const users=JSON.parse(localStorage.getItem("users")) || [];
     const user=users.find(user=>user.email===email && user.password===password);

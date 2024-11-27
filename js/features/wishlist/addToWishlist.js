@@ -12,7 +12,6 @@ function addToWishlist(product,wishlistIcon){
 
         // save product to localstorage
         localStorage.setItem("wishlist",JSON.stringify(wishlist));
-        alert(`${product.name} added to wishlist`);
     }
     else{
         // if user reclick on icon the product is removed from wishlist
@@ -20,7 +19,7 @@ function addToWishlist(product,wishlistIcon){
 
         wishlistIcon.classList.remove("added");
         localStorage.setItem("wishlist",JSON.stringify(wishlist));
-        alert(`${product.name} removed from wishlist`);
+       
     }
 }
 

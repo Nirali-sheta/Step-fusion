@@ -9,7 +9,7 @@ nav{
     top:0;
     backdrop-filter: blur(10px);
     z-index: 1;
-    padding: 15px;
+    padding: 10px;
     padding-right: 30px;
 }
 ul{
@@ -17,8 +17,13 @@ ul{
     gap: 60px;
     display: flex;
     margin-left: auto;
+    justify-content: center;
 }
 
+.icon-container {
+    display: flex;
+    gap: 30px;
+}
 a{
     text-decoration: none;
     color: black;
@@ -30,9 +35,20 @@ nav h1{
 nav li {
     margin-top: 10px;
     font-size: 20px;
-    justify-content: space-between;
 }
 nav li a:hover{
     color: grey;
     text-decoration: underline;
 }
+
+
+/* remove quicksand from icons */
+nav i{
+    font-family:'Font Awesome 6 free' !important;
+    font-weight: 900;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+
+

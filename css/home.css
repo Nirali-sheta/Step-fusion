@@ -1,3 +1,4 @@
+@import "./const.css";
 h1{
     text-align: center;
 }
@@ -44,19 +45,15 @@ i{
 i:hover{
     color: gray;
 }
-.searchbar{
-    background-color: gray;
-    height: 50px;
-    width: 920px;
-    margin-left: 500px;
-    margin-top: 20px;
-}
+
 .category{
     display: flex;
-    gap: 30px;
-    margin: 20px;
+    gap: 60px;
+    margin: 30px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
+   
 }
 .men{
     background-image: url(/html/src/category/men.jpg);
@@ -64,6 +61,7 @@ i:hover{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    transition: transform 0.3s ease,box-shadow 0.3 ease;
 }
 .women{
     background-image: url(/html/src/category/woman.jpg);
@@ -71,6 +69,7 @@ i:hover{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    transition: transform 0.3s ease,box-shadow 0.3 ease;
 }
 .kids{
     background-image: url(/html/src/category/kid.jpg);
@@ -78,15 +77,25 @@ i:hover{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    transition: transform 0.3s ease,box-shadow 0.3 ease;
 }
 .men:hover{
+    transform: scale(1.1); /*increase size by 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 50%;
+    cursor: pointer;
 }
 .women:hover{
+    transform: scale(1.1); /*increase size by 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 50%;
+    cursor: pointer;
 }
 .kids:hover{
+    transform: scale(1.1); /*increase size by 10% */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     opacity: 50%;
+    cursor: pointer;
 }
 footer{
     margin-top: 20px;
@@ -94,3 +103,67 @@ footer{
     width: 98%;
     height: 100px;
 } 
+
+.image-container{
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-top: 0;
+}
+
+.image-container img{
+    height: auto;
+    max-width: 600px;
+   
+}
+
+.shoes-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color:rgb(239, 242, 239);
+    /* border: 1px solid black; */
+    height: 400px;
+    width: auto;
+    /* padding:5px; */
+    border-radius: 8px;
+}
+
+.description-container{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+}
+.heading{
+    font-size: 70px;
+
+}
+
+.description{
+    font-size: 18px;
+    color: rgb(61, 59, 59);
+    line-height: 1.6;
+    margin-top: 0;
+}
+
+.shop-btn{
+    margin: 0 4px;
+    padding: 14px 20px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.description-container h1, .description-container p {
+    margin: 7px;
+}
+.shop-btn:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}

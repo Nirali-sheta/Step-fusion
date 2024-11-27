@@ -61,6 +61,10 @@
           cursor: pointer;
           transition: all 0.3s ease;
         }
+
+        .added{
+          color:rgb(245, 106, 127);
+        }
     
         .product-buttons button:hover {
           background-color: #fff;

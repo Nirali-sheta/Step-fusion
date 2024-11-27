@@ -24,8 +24,8 @@ function displayProductByCategory(category){
           //  cloneNode is used to duplicate of subcategoryItem dynamically
            const item=subcategoryItem.cloneNode(true);
            item.querySelector("a").href=`/html/productInfo/productResult.html?subcategory=${subcat.id}`;
-           item.querySelector("img").src=subcat.url;
-           item.querySelector("span").textContent=subcat.name;
+           item.querySelector("img").src="/html/src/"+subcat.url;
+           item.querySelector("span p").textContent=subcat.name;
   
           subcategoryList.appendChild(item);
            
