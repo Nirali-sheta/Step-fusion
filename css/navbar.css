@@ -31,13 +31,17 @@ a{
     padding:5px 0;
     transition: color 0.3s ease;
 }
+a.nav-link {
+    position: relative;
+}
 
 nav h1{
     margin-left: 10px;
 }
 nav li {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
 }
 nav li a:hover{
     color: grey;
@@ -61,7 +65,7 @@ a.nav-link::before {
   }
   nav li a:hover {
     color: grey;
-    text-decoration: none; /* Don't add underline here */
+    text-decoration: none; 
 }
   a.nav-link:hover::before {
     width: 100%;

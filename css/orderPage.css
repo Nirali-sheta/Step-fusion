@@ -1,0 +1,43 @@
+@import "./const.css";
+
+.container{
+    font-family: var(--font-family);
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height:auto;
+    width: 1200;
+    padding: 20px;
+    
+    /* border: 2px solid; */
+}
+.head{
+    color: #333333 !important;
+    font-weight: 700;
+    font-size: 1rem !important;
+    align-items: start !important;
+}
+
+.order-card{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    justify-content: center; 
+    text-align: center; 
+    padding-top: 0;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #d3d3d3;
+    gap: 30px;
+    align-items: center;
+    color: #444444;
+    font-size: 0.9rem;
+}
+ 
+img{
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
