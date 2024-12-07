@@ -2,6 +2,7 @@
 
 import products from "../data/product.js";
 import addToWishlist from "../features/wishlist/addToWishlist.js"
+import addTocart from "../features/cart/addToCart.js";
 
 const params=new URLSearchParams(location.search);
 
@@ -15,7 +16,6 @@ function fetchProductBySubcategory(subcategory){
     })
     displayProduct(filteredProducts);
 }
-
 function displayProduct(products){
     const productList=document.querySelector("body");
 
@@ -23,10 +23,12 @@ function displayProduct(products){
         const productCard=document.querySelector(".product-card").cloneNode(true);
         
         productCard.querySelector(".product-image img").src="/html/src/"+product.imageUrls[0];
-        // productCard.querySelector(".product-image img").alt=product.name;
+        productCard.querySelector(".product-image img").alt=product.name;
 
         productCard.querySelector(".product-info h3").textContent=product.name;
         productCard.querySelector(".product-info p").textContent=product.description;
+
+        productCard.querySelector("a").href=`/html/productInfo/productDetails.html?product=${product.id}`;
 
         const wishlist=productCard.querySelector(".product-buttons .wishlist-btn i");
 
@@ -40,6 +42,13 @@ function displayProduct(products){
         wishlist.addEventListener("click",function(){
             // wishlist parameter is passed to add to cart and remove by clicking icon
             addToWishlist(product,wishlist);
+        })
+
+        // Add to Cart
+        const cartbtn=productCard.querySelector(".product-buttons .cart-btn");
+
+        cartbtn.addEventListener("click",function(){
+            addTocart(product);
         })
         productList.appendChild(productCard);
     
