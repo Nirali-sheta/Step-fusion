@@ -91,6 +91,7 @@ nav i:hover{
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+    margin-top: 50px;
    
 }
 .men{
@@ -151,12 +152,15 @@ footer{
 
 .image-container img{
     width: 100%; /* Responsive scaling */
-    height: auto;
-    max-width: 500px; /* Limit maximum size for larger screens */
+    margin-top: 10px;
+    height: 550px;
+    max-width: 600px; /* Limit maximum size for larger screens */
     border-radius: 10px;
+    margin-right: 200px;
 }
 
 .shoes-container{
+    margin-top: -60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,12 +175,16 @@ footer{
     flex: 1;
     max-width: 50%;
     padding: 20px;
+    align-items: center;
+    margin-left: 200px;
+    /* text-align: center; */
     box-sizing: border-box;
     
 }
 .description-container2{
     display: flex;
     flex-direction: column;
+    /* text-align: center; */
     gap: 10px;
     /* margin: auto; */
 }
@@ -185,10 +193,7 @@ footer{
 
 }
 .description{
-    /* font-size: 18px;
-    color: rgb(61, 59, 59);
-    line-height: 1.6;
-    margin-top: 0; */
+    
     font-size: 1rem;
     color: #555;
     line-height: 1.6;
@@ -198,17 +203,15 @@ footer{
     align-items: center; 
     /* justify-content: center; */
     margin-top: 20px;
+    text-align: center;
 }
 .shop-btn{
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-size: 1rem;
     color: #fff;
     background-color: #000;
     border: 1px solid #000;
     border-radius: 40px;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
     cursor: pointer;
     transition: all 0.3s ease;
 }
@@ -227,7 +230,7 @@ footer{
 .trending{
     padding: 20px;
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     overflow-x:auto;
     scroll-behavior: smooth;
     background-color: white;
@@ -314,6 +317,8 @@ footer{
   }
   .newcollection {
     padding: 40px 20px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     background-color: #fff;
     text-align: center;
 }
@@ -372,21 +377,24 @@ footer{
 }
 
 
-.newArrivals{
+.best-seller{
     padding-left: 20px;
 }
-.newArrivals-container{
+h1{
+    text-align: center;
+}
+.best-seller-container{
     display: flex;
     justify-content: flex-start;
-    gap:1rem;
+    gap:3rem;
     overflow-x:auto;
     scroll-behavior: smooth;
     /* height: 200px; */
 }
-.newArrivals-container::-webkit-scrollbar{
+.best-seller-container::-webkit-scrollbar{
     display: none;
 }
-.newArrivals-container .product{
+.best-seller-container .product{
     flex: 0 0 auto;
     background-color: #fff;
     border-radius: 8px;
