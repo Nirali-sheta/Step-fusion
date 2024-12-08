@@ -9,8 +9,9 @@ nav{
     top:0;
     backdrop-filter: blur(10px);
     z-index: 1;
-    padding: 10px;
+    padding: 5px;
     padding-right: 30px;
+    padding-left: 10px;
 }
 ul{
     list-style-type: none;  
