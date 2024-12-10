@@ -26,7 +26,7 @@ function displayProduct(products){
         productCard.querySelector(".product-image img").alt=product.name;
 
         productCard.querySelector(".product-info h3").textContent=product.name;
-        productCard.querySelector(".product-info p").textContent=product.description;
+        productCard.querySelector(".product-info p").innerHTML=`&#8377;<span>${product.price}</span>`;
 
         productCard.querySelector("a").href=`/html/productInfo/productDetails.html?product=${product.id}`;
 
