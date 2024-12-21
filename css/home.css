@@ -57,6 +57,9 @@ nav i:hover{
     color: gray;
 }
 /*footer*/
+footer{
+    height: 100%;
+}
 .social-icons {
     display: flex;
     gap: 15px;
@@ -453,7 +456,26 @@ h1{
     margin-bottom: 10px;
 }
 
+
+
 /* Responsive Design */
+
+@media(max-width:1024px){
+    .description-container {
+        padding-left: 0;
+        margin-left: 0; /* Remove left margin for smaller screens */
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .shoes-container {
+        gap: 30px;
+        flex-direction: column; /* Stack the items vertically */
+        align-items: center; /* Center the items */
+    }
+}
+
+
 @media (max-width: 768px) {
     .bestseller-container {
         flex-direction: column;
@@ -528,9 +550,7 @@ h1{
     grid-template-columns: repeat(6, 1fr); /* 3 columns */
     gap: 5px;
     justify-items: center;
-    /* padding: 20px; */
-    /* max-width: 1800px; */
-    /* margin: 0 auto; */
+    /
 }
 
 /* Individual Brand Styling */

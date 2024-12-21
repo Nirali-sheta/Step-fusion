@@ -6,9 +6,26 @@ document.addEventListener("DOMContentLoaded", function() {
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);  
+                addActive();
             })
             .catch(error => {
                 console.error('Error loading the navbar:', error);
             });
     }
 });
+
+// Add class active when user clicks on navbar link
+function addActive(){
+    const currentPath=location.pathname;
+    
+    const navlink=document.querySelectorAll('.nav-link');
+    
+    navlink.forEach(link=>{
+        if(link.getAttribute('href')==currentPath){
+            link.classList.add('active');
+        }
+        else{
+            link.classList.remove('active');
+        }
+    });
+}

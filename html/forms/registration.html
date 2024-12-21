@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration</title>
+    <link href="https://fonts.googleapis.com">
+    <link href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
     <link href="/css/registration.css" rel="stylesheet">
 </head>
 <body>
@@ -33,7 +36,7 @@
                      <input type="date" id="dob" required>
                      <div class="error-msg" id="dobError"></div>
 
-                     <label>gender</label>
+                     <label>Gender</label>
                      <select id="gender" required>
                          <option value="" disabled selected>Select gender</option>
                          <option value="male">Male</option>
@@ -41,7 +44,7 @@
                          <option value="other">Other</option>
                      </select>
                      <div class="error-msg" id="genderError"></div>
-
+                     <p>Already have an account?<a href="login.html">Login</a></p>
                      <div class="button-container">
                          <button type="button" onclick="goNext()">Next</button>
                     </div>
@@ -82,7 +85,6 @@
                     <div class="error-msg" id="confirmPasswordError"></div>       
 
                     <div class="button-container">
-
                         <button type="button" onclick="goPrevious()">Previous</button>
                         <button onclick="handleSubmit(event)">Submit</button>
                     </div>

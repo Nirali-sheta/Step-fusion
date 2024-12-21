@@ -20,6 +20,24 @@ ul{
     margin-left: auto;
     justify-content: center;
 }
+a.nav-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+}
+
+a.nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #333;
+    transition: width 0.3s ease, left 0.3s ease;
+}
 
 .icon-container {
     display: flex;
@@ -34,6 +52,15 @@ a{
 }
 a.nav-link {
     position: relative;
+    
+}
+a.nav-link:hover {
+    color: #555;
+}
+
+a.nav-link:hover::before {
+    width: 100%;
+    left: 0;
 }
 
 nav h1{
@@ -53,7 +80,7 @@ nav li a:hover{
 a.nav-link::before {
     content: "";
     position: absolute;
-    bottom: -12px;
+    bottom: -5px;
     left: 50%;
     width: 0;
     height: 2px;
@@ -72,6 +99,18 @@ a.nav-link::before {
     width: 100%;
     left: 0;
   }
+
+
+  /* underline only for selected page */
+  a.nav-link:hover::before,
+    a.nav-link.active::before {
+    width: 100%; 
+    left: 0; 
+}
+
+a.nav-link:hover,
+a.nav-link.active {
+    color: #555; }
 
 /* remove quicksand from icons */
 nav i{

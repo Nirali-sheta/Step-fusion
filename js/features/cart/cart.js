@@ -24,7 +24,7 @@ function displayProductInCart() {
         cartItem.innerHTML = `
             <input type="checkbox" class="select-item" checked>
             <div class='img-container'>
-            <img src="/html/src/${product.imageUrls[0]}" alt="${product.name}" class="product-image">
+            <a href="/html/productInfo/productDetails.html?product=${product.id}"><img src="/html/src/${product.imageUrls[0]}" alt="${product.name}" class="product-image"></a>
             </div>
             <div class="product-details">
                 <h4 class="product-name">${product.name}</h4>

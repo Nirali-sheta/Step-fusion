@@ -1,4 +1,7 @@
 @import "const.css";
+*{
+    font-family:var(--font-family) ;
+}
 
 .container {
     display: flex; 
@@ -6,9 +9,10 @@
     align-items: center; 
     flex-wrap: wrap; 
     width: 100%;
-    margin-top: 150px;
+    margin-top: 0vh;
     max-width: 1200px;
-    margin-left: 300px; 
+    margin-left: auto; 
+    margin-right: auto;
     gap: 40px; 
     padding: 20px;
     
@@ -50,7 +54,7 @@ label {
 
 label::after{
     content: "*";
-    color: red;
+    color: red !important;
 }
 input,
 select {
@@ -76,6 +80,11 @@ textarea:hover{
 }
 .show{
     display: block;
+}
+p{
+    text-align: right;
+    width: 75%;
+    font-size: small;
 }
 textarea{
     padding: 8px;
@@ -126,6 +135,13 @@ button:hover {
 }
 
 
+@media (max-width: 1024px) {
+    .container {
+        margin-left: 10px; 
+        margin-right: 10px; 
+    }
+}
+
 @media (max-width: 768px) {
     .container {
         flex-direction: column; 
@@ -162,3 +178,25 @@ button:hover {
         font-size: 14px;
     }
 }
+
+@media (min-width: 1600px) {
+    .container {
+        margin-top: 20vh; 
+    }
+    .container img {
+        width: 150%;
+    }
+
+    .registrationinfo {
+        width: 150%; 
+        height: auto;  
+    }
+
+    .section.active {
+        width: 85%; 
+        padding: 40px; 
+    }
+
+}
+
+

@@ -1,4 +1,5 @@
 import products from "../data/product.js";
+import addTocart from "../features/cart/addToCart.js";
 
 const params=new URLSearchParams(location.search);
 const productId=params.get('product');
@@ -20,7 +21,12 @@ function fetchProductDetails(){
     document.querySelector(".size strong").parentNode.append(product.sizes);
     document.querySelector(".rate").parentNode.append();
     document.querySelector(".review strong").parentNode.append(product.reviews);
-}
 
+    const cartBtn=document.querySelector('.btn.cart');
+    cartBtn.addEventListener('click',()=>{
+       addTocart(product);
+    });
+
+}
 fetchProductDetails();
 

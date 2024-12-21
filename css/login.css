@@ -5,12 +5,12 @@
     flex-direction: column;
     background-color: transparent;
     align-items: center;
-    height: 300px;
+    height: auto;
     width: 400px;
     border: none;
     border-radius: 6px;
     margin: 50px auto;
-    padding: 20px;
+    padding:20px;
     color: var(--font-family);
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -20,15 +20,11 @@ h1{
     text-align: center;
     margin-bottom: 30px;
 }
-/* label{
-    margin-bottom: 3px;
+p{
     width: 75%;
-    text-align: left;
+    text-align: right;
+    font-size: small;
 }
-label::after{
-    content:"*";
-    color: red;
-} */
 input{
     margin-bottom: 20px;
     margin-top: 5px;
@@ -37,7 +33,6 @@ input{
     border-radius: 5px;
     border:var(--border);
     box-sizing: border-box;
-
 }
 input:hover{
     border-color: var(--input-hover-border);
