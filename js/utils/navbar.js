@@ -43,32 +43,44 @@ function displayIntial(){
  const user=JSON.parse(localStorage.getItem('loggedInUser'));
  const p=document.querySelector("#initial");
 
- const initalAlpha=user.firstname[0].toUpperCase();
- p.textContent=initalAlpha;
-//  toggle intial latter if user logged in otherwise logo 
- const userInitialDiv = document.querySelector("#user-initial");
- const userIcon = document.querySelector(".userlogo a i");
- if (userInitialDiv) userInitialDiv.style.display = "flex";
- if (userIcon) userIcon.style.display = "none";
+ const initial=user.firstname[0].toUpperCase();
+ p.textContent=initial;
+
+ const div=document.getElementById("user-initial");
+ div.style.display="block";
+
+ const userIcon=document.getElementById("userIcon");
+ userIcon.style.display="none";
+
+ document.getElementById("dropdown-card").innerHTML=`<a href="/html/pages/profilePage.html">Profile</a>
+                    <a href="/html/forms/registration.html" onclick="logout()" id="logout">Log Out</a>`
+ 
 }
 
 function toggleCard(){
     const card = document.getElementById("dropdown-card");
     // Toggle the visibility of the card
-    if (card.style.display === "block") {
-        card.style.display = "none";
-    } else {
-        card.style.display = "block";
+    
+    if(card.style.display=="block"){
+        card.style.display="none";
+    }
+    else{
+
+        card.style.display="block";
     }
 }
 
 //close the card
 document.addEventListener("click", (event) => {
         const card = document.getElementById("dropdown-card");
-        const initials = document.querySelector(".user-initials");
-        if (!card.contains(event.target) && !initials.contains(event.target)) {
-            card.style.display = "none";
-        }
+        const userlogo=document.getElementById("userIcon");
+        const initial=document.getElementById("user-initial");
+
+        if(!card.contains(event.target) && !userlogo.contains(event.target) && !initial.contains(event.target)){
+            card.style.display="none";
+
+        } 
+       
 });
 
 // logout functionality
@@ -81,10 +93,10 @@ function logout(){
         localStorage.removeItem('wishlist');
 
         const userInitialDiv = document.querySelector("#user-initial");
-        const userIcon = document.querySelector(".userlogo a i");
+        const userIcon = document.querySelector("#userIcon");
     
-        if (userInitialDiv) userInitialDiv.style.display = "none";
-        if (userIcon) userIcon.style.display = "block";
+        userIcon.style.display="block";
+        userInitialDiv.style.display="none";
 
         const dropdownCard = document.querySelector('.dropdown-card');
         if (dropdownCard) {
@@ -93,7 +105,7 @@ function logout(){
                 <a href="/html/forms/registration.html">Sign Up</a>
             `;
         }
-
+        
     });
 
 }
