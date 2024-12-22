@@ -34,15 +34,19 @@ function displayProductInCart() {
                 <p class="product-price">&#8377;${product.price}</p>
                 
             </div>
-                <div class="product-quantity">  
+            <div class="main">
+            <div class="product-quantity">  
                     <button class="quantity-decrease">-</button>
                     <input type="text" value="1" class="quantity-input" min="1">
                     <button class="quantity-increase">+</button>
-                </div>
-                <div class="product-total">
+            </div>
+            <div class="product-total">
                 <p>&#8377;${product.price}</p>
-                </div>
+            </div>
                 <button class="remove-item">Remove</button>
+            </div>
+                
+                
            `;
 
         // Append the cart item to the cart container
