@@ -1,12 +1,22 @@
 
 const subcategories = [
-    { id: 1, name: "sandles", categoryId: 1, url: "home3.jpg" },
-    { id: 2, name: "shoes", categoryId: 1, url: "home3.jpg" },
-    { id: 3, name: "sports", categoryId: 2, url: "home3.jpg" },
-    { id: 4, name: "formal", categoryId: 2, url: "home3.jpg" },
-    { id: 5, name: "casual", categoryId: 3, url: "home3.jpg" },
-    { id: 6, name: "high-heels", categoryId: 3, url: "home3.jpg" },
-    { id: 7, name: "high-heels", categoryId: 3, url: "home3.jpg" }
+    { id: 1, name: "Sneakers", categoryId: 2, url: "men/sneakers/img2.jpg" },
+    { id: 2, name: "Formal", categoryId: 2, url: "men/formal/img1.jpg" },
+    { id: 3, name: "Sport", categoryId: 2, url: "men/sport/img2.jpg" },
+    { id: 4, name: "Sandal", categoryId: 2, url: "men/sandal/img4.jpg" },
+    { id: 5, name: "Flip-flop", categoryId: 2, url: "men/flipflop/img5.jpg" },
+    { id: 6, name: "Crocs", categoryId: 2, url: "men/crocs/img2.jpg" },
+    { id: 7, name: "Casual", categoryId: 1, url: "women/casual/img2.jpg" },
+    { id: 8, name: "Sport", categoryId: 1, url: "home3.jpg" },
+    { id: 9, name: "Sneakers", categoryId: 1, url: "home3.jpg" },
+    { id: 10, name: "Flip-flop", categoryId: 1, url: "home3.jpg" },
+    { id: 11, name: "Crocs", categoryId: 1, url: "home3.jpg" },
+    { id: 12, name: "High-heels", categoryId: 1, url: "home3.jpg" },
+    { id: 13, name: "Bridal", categoryId: 1, url: "home3.jpg" },
+    { id: 14, name: "Sneakers", categoryId: 3, url: "kid/sneaker/img4.jpg" },
+    { id: 15, name: "Sandal", categoryId: 3, url: "kid/sandal/img6.jpg" },
+    { id: 16, name: "Sport", categoryId: 3, url: "kid/sport/img4.jpg" },
+    { id: 17, name: "Crocs", categoryId: 3, url: "kid/crocs/img3.jpg" },
 ];
 
 export default subcategories;

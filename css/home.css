@@ -159,6 +159,7 @@ footer{
     height: 540px;
     max-width: 600px; /* Limit maximum size for larger screens */
     border-radius: 10px;
+    margin-left: 150px;
     margin-right: 200px;
 }
 
@@ -167,7 +168,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 90px;
+    gap: 100px;
     padding: 5px;
     background-color: white;
     width: 100%;
