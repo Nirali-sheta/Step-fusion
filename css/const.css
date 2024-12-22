@@ -10,6 +10,6 @@
 }
 .fa, .fas, .fab {
     font-family: "Font Awesome 6 Free" !important;
-    font-weight: 900; /* Ensure proper icon weights for 'solid' icons */
+    font-weight: 900;
 }
 
