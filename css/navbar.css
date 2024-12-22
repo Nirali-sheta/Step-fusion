@@ -121,4 +121,75 @@ nav i{
 }
 
 
+.user-initials {
+    height: 20px;
+    width: 20px;
+    background-color: #fff; 
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #fff;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 3px;
+    position: relative;
+}
 
+.dropdown-card {
+    display: none; 
+    position: absolute;
+    top:80%; 
+    left: 88%;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    z-index: 10;
+}
+
+.dropdown-card::before {
+    content: "";
+    position: absolute;
+    top: -10px; 
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff; 
+    z-index: 1001;
+}
+
+.dropdown-card a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+.dropdown-card a:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+.user-initials #initial{
+    color:#555;
+    margin: 0;
+}
+
+@media(min-width:1600px){
+    .dropdown-card{
+        left:92%;
+    }
+}

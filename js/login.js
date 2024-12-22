@@ -32,8 +32,8 @@ function handleButtonClick(event) {
 
     // if user is exist then allowed to login
     if(user){
+        localStorage.setItem("loggedInUser",JSON.stringify(user));
         location.href='/html/home.html';
-
     }
     else{
         alert("Invalid username or password");

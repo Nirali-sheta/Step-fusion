@@ -18,8 +18,23 @@
             <div class="icon-container"> 
                 <li><a href="/html/pages/wishlist.html"><i class="fas fa-heart"></i></a></li>
                 <li><a href="/html/pages/addToCart.html"><i class="fas fa-shopping-cart"></i></a></li>
-                <li><a href="/html/forms/login.html"><i class="fas fa-user"></i></a></li>
+                <li class="userlogo">
+                    <div id="user-initial" class="user-initials" onclick="toggleCard()">
+                         <p id="initial"></p>
+                    </div>
+                    <a href="/html/forms/login.html">
+                        <i class="fas fa-user"></i>
+                    </a>
+                </li>
+                <div class="dropdown-card" id="dropdown-card">
+                    <a href="/html/pages/profilePage.html">Profile</a>
+                    <a href="/html/home.html" id="logout">Logout</a>
+                    <a href="/html/forms/registration.html">Sign Up</a>
+                </div>
+                
             </div>
         </ul>
+    </nav>
+        
 </body>
 </html>
