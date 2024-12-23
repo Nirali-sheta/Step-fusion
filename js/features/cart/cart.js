@@ -1,8 +1,9 @@
 function displayProductInCart() {
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const container=document.querySelector(".container");
 
     if (cart.length <= 0) {
-        document.body.innerHTML = "<p>Your Cart is empty!!</p>";
+        container.innerHTML = "<p>Your Cart is empty!!</p>";
         return;
     }
 
@@ -96,7 +97,7 @@ function displayProductInCart() {
             cartItem.remove();
 
             if(cart.length===0){
-                document.body.innerHTML="<p>Your Cart is empty!!</p>";
+                container.innerHTML="<p>Your Cart is empty!!</p>";
             };
             updateTotalAmt();
         });
