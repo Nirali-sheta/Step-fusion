@@ -10,6 +10,7 @@ function displayProductIntoWishlist(){
 
     if(wishlist.length<=0){
         wishlistContainer.innerHTML="<p class='empty-message'>Your wishlist is empty!!</p>";
+
         return;
     }
 
@@ -34,6 +35,7 @@ function displayProductIntoWishlist(){
             productCard.remove();
             if(wishlistContainer.children.length===0){
                 wishlistContainer.innerHTML="<p>Your wishlist is empty!!</p>";
+                wishlistContainer.classList.add('empty-message');
             }
            
         });
