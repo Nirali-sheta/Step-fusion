@@ -9,7 +9,7 @@ function displayProductIntoWishlist(){
     const wishlistContainer=document.querySelector(".wishlist-container");
 
     if(wishlist.length<=0){
-        wishlistContainer.innerHTML="<p>Your wishlist is empty!!</p>";
+        wishlistContainer.innerHTML="<p class='empty-message'>Your wishlist is empty!!</p>";
         return;
     }
 
