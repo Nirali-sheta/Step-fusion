@@ -23,8 +23,14 @@ function fetchProductDetails(){
     document.querySelector(".review strong").parentNode.append(product.reviews);
 
     const cartBtn=document.querySelector('.btn.cart');
+    const user=localStorage.getItem('loggedInUser');
     cartBtn.addEventListener('click',()=>{
-       addTocart(product);
+       if(user){
+           addTocart(product);
+       }
+       else{
+            location.href='/html/forms/login.html';
+       }
     });
 
 }

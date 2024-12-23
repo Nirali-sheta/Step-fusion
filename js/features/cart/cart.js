@@ -58,6 +58,13 @@ function displayProductInCart() {
         const decreaseBtn = cartItem.querySelector('.quantity-decrease');
         const increaseBtn = cartItem.querySelector('.quantity-increase');
         const checkbox=cartItem.querySelector('.select-item');
+        const addressBlock=document.querySelector('.address-block');
+
+        const user=JSON.parse(localStorage.getItem('loggedInUser'));
+        if(user){
+            addressBlock.textContent=user.address;
+        }
+
 
         // update the total price for this product
         function updateProductTotal() {
