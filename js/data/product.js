@@ -185,8 +185,13 @@ const products = [
         subcategoryId: 2
     },
     {
+<<<<<<< HEAD
         id: 11,
         name: "Running Shoes",
+=======
+        id: 4,
+        name: "leather formal",
+>>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Lightweight running shoes with breathable material.",
         brand: "Adidas",
         price: 89.99,
@@ -204,8 +209,13 @@ const products = [
         subcategoryId: 2
     },
     {
+<<<<<<< HEAD
         id: 12,
         name: "Formal Leather Shoes",
+=======
+        id: 5,
+        name: "leather formal",
+>>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Stylish leather shoes perfect for office wear.",
         brand: "Clarks",
         price: 99.99,
@@ -223,8 +233,13 @@ const products = [
         subcategoryId: 2
     },
     {
+<<<<<<< HEAD
         id: 13,
         name: "Light-Up Sneakers",
+=======
+        id: 6,
+        name: "leather formal",
+>>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Fun sneakers with light-up soles.",
         brand: "Sketchers",
         price: 49.99,
@@ -242,8 +257,8 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 14,
-        name: "Sports Sandals",
+        id: 7,
+        name: "leather formal",
         description: "Durable sandals for active kids.",
         brand: "Puma",
         price: 29.99,
