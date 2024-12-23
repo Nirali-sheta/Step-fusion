@@ -20,7 +20,7 @@
   height: 400px;
   background-color: white;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
@@ -30,11 +30,13 @@
 
 .product-image img {
   width: 100%;
-  height: 180px;
+  height: 210px;
   object-fit: cover;
 }
   .product-info {
-    padding: 16px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
   }
 
@@ -69,4 +71,15 @@
     background-color: #fff;
     color: #000;
     border: 1px solid #000;
+  }
+  .empty-message {
+    width: 210vh;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: -20px;
+    background-color: rgb(243, 243, 243); 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;  
+    color: black;         
   }
