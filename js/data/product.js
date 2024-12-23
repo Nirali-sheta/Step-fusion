@@ -148,7 +148,7 @@ const products = [
     // men's formal
     {
         id: 9,
-        name: "Stylish Sandals",
+        name: "leather formal",
         description: "Fashionable sandals for a chic look.",
         brand: "Mosac",
         price: 39.99,
@@ -167,7 +167,7 @@ const products = [
     },
     {
         id: 10,
-        name: "High Heels",
+        name: "leather formal",
         description: "Elegant high heels for formal events.",
         brand: "Gucci",
         price: 120.99,
@@ -185,13 +185,8 @@ const products = [
         subcategoryId: 2
     },
     {
-<<<<<<< HEAD
         id: 11,
-        name: "Running Shoes",
-=======
-        id: 4,
         name: "leather formal",
->>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Lightweight running shoes with breathable material.",
         brand: "Adidas",
         price: 89.99,
@@ -209,13 +204,8 @@ const products = [
         subcategoryId: 2
     },
     {
-<<<<<<< HEAD
         id: 12,
-        name: "Formal Leather Shoes",
-=======
-        id: 5,
         name: "leather formal",
->>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Stylish leather shoes perfect for office wear.",
         brand: "Clarks",
         price: 99.99,
@@ -233,13 +223,8 @@ const products = [
         subcategoryId: 2
     },
     {
-<<<<<<< HEAD
         id: 13,
-        name: "Light-Up Sneakers",
-=======
-        id: 6,
         name: "leather formal",
->>>>>>> 80f7896e611b5e5268ce93681ad86957e1f63637
         description: "Fun sneakers with light-up soles.",
         brand: "Sketchers",
         price: 49.99,
@@ -257,7 +242,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 7,
+        id: 14,
         name: "leather formal",
         description: "Durable sandals for active kids.",
         brand: "Puma",
