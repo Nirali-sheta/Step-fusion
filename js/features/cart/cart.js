@@ -3,7 +3,7 @@ function displayProductInCart() {
     const container=document.querySelector(".container");
 
     if (cart.length <= 0) {
-        container.innerHTML = "<p>Your Cart is empty!!</p>";
+        container.innerHTML = "<p class='empty-cart-message'>Your Cart is empty!!</p>";
         return;
     }
 

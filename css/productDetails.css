@@ -25,13 +25,23 @@ body {
     margin: 0 auto;  
     box-sizing: border-box; /* to stop overflow */
 }
-
+.img-container{
+    box-sizing: border-box;
+    width: 550px; /* Set the container width */
+    height: 700px; /* Set the container height */
+    overflow: hidden; /* Crop images if needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 .product-image {
     max-width: 100%;  
-    height: auto;
-    margin-right: 70px;  
+    height: 100%;
+    margin-left: 100px;
     border-radius: 12px;  
     border: 1px solid #ddd;  
+    object-fit: cover;
 }
 
 .vertical-line {

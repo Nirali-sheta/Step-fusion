@@ -25,8 +25,7 @@ body{
 }
 
 .image-container img {
-    /* display: block; */
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -128,18 +127,19 @@ nav i:hover{
 }
 
 .image-container img{
-    width: 100%; /* Responsive scaling */
-    margin-top: 15px;
-    height: 540px;
-    max-width: 600px; /* Limit maximum size for larger screens */
+    width: 700px;/* Responsive scaling */
+    margin-top: 45px;
+    height: 600px;
+    max-width: 800px; /* Limit maximum size for larger screens */
     border-radius: 10px;
     margin-left: 150px;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 
 .shoes-container{
     margin-top: -60px;
     display: flex;
+    height: 600px;
     align-items: center;
     justify-content: space-between;
     gap: 100px;
@@ -155,16 +155,13 @@ nav i:hover{
     padding: 20px;
     align-items: center;
     margin-left: 90px;
-    /* text-align: center; */
     box-sizing: border-box;
     
 }
 .description-container2{
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     gap: 10px;
-    /* margin: auto; */
 }
 .heading{
     font-size: 65px;
