@@ -54,7 +54,7 @@ function displayIntial(){
 
  document.getElementById("dropdown-card").innerHTML=`<a href="/html/pages/profilePage.html">Profile</a>
                     <a href="/html/home.html" onclick="logout()" id="logout">Log Out</a>
-                    <a href="/html/forms/registration.html">Sign Up</a>`
+                    `
  
 }
 
