@@ -166,7 +166,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 3,
+        id: 10,
         name: "High Heels",
         description: "Elegant high heels for formal events.",
         brand: "Gucci",
@@ -185,7 +185,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 4,
+        id: 11,
         name: "Running Shoes",
         description: "Lightweight running shoes with breathable material.",
         brand: "Adidas",
@@ -204,7 +204,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 5,
+        id: 12,
         name: "Formal Leather Shoes",
         description: "Stylish leather shoes perfect for office wear.",
         brand: "Clarks",
@@ -223,7 +223,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 6,
+        id: 13,
         name: "Light-Up Sneakers",
         description: "Fun sneakers with light-up soles.",
         brand: "Sketchers",
@@ -242,7 +242,7 @@ const products = [
         subcategoryId: 2
     },
     {
-        id: 7,
+        id: 14,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -263,7 +263,7 @@ const products = [
 
     // men's sports
     {
-        id: 7,
+        id: 15,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -282,7 +282,7 @@ const products = [
         subcategoryId: 3
     },
     {
-        id: 7,
+        id: 16,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -301,7 +301,7 @@ const products = [
         subcategoryId: 3
     },
     {
-        id: 7,
+        id: 17,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -320,7 +320,7 @@ const products = [
         subcategoryId: 3
     },
     {
-        id: 7,
+        id: 18,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -339,7 +339,7 @@ const products = [
         subcategoryId: 3
     },
     {
-        id: 7,
+        id: 19,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -360,7 +360,7 @@ const products = [
 
     // men's sandal
     {
-        id: 7,
+        id: 20,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -379,7 +379,7 @@ const products = [
         subcategoryId: 4
     },
     {
-        id: 7,
+        id: 21,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -398,7 +398,7 @@ const products = [
         subcategoryId: 4
     },
     {
-        id: 7,
+        id: 22,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -417,7 +417,7 @@ const products = [
         subcategoryId: 4
     },
     {
-        id: 7,
+        id: 23,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -436,7 +436,7 @@ const products = [
         subcategoryId: 4
     },
     {
-        id: 7,
+        id: 24,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -455,7 +455,7 @@ const products = [
         subcategoryId: 4
     },
     {
-        id: 7,
+        id: 25,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -476,7 +476,7 @@ const products = [
 
     //Men's flip-flop
     {
-        id: 7,
+        id: 26,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -495,7 +495,7 @@ const products = [
         subcategoryId: 5
     },
     {
-        id: 7,
+        id: 27,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -514,7 +514,7 @@ const products = [
         subcategoryId: 5
     },
     {
-        id: 7,
+        id: 28,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -533,7 +533,7 @@ const products = [
         subcategoryId: 5
     },
     {
-        id: 7,
+        id: 29,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -552,7 +552,7 @@ const products = [
         subcategoryId: 5
     },
     {
-        id: 7,
+        id: 30,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -573,7 +573,7 @@ const products = [
 
     //Men's crocs
     {
-        id: 7,
+        id: 31,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -591,7 +591,7 @@ const products = [
         reviews: 110,
         subcategoryId: 6
     },{
-        id: 7,
+        id: 32,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -609,7 +609,7 @@ const products = [
         reviews: 110,
         subcategoryId: 6
     },{
-        id: 7,
+        id: 33,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -627,7 +627,7 @@ const products = [
         reviews: 110,
         subcategoryId: 6
     },{
-        id: 7,
+        id: 34,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -648,7 +648,7 @@ const products = [
 
     // Women's casual
     {
-        id: 7,
+        id: 35,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -666,7 +666,7 @@ const products = [
         reviews: 110,
         subcategoryId: 7
     },{
-        id: 7,
+        id: 36,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -684,7 +684,7 @@ const products = [
         reviews: 110,
         subcategoryId: 7
     },{
-        id: 7,
+        id: 37,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -702,7 +702,7 @@ const products = [
         reviews: 110,
         subcategoryId: 7
     },{
-        id: 7,
+        id: 38,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -720,7 +720,7 @@ const products = [
         reviews: 110,
         subcategoryId: 7
     },{
-        id: 7,
+        id: 39,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -738,7 +738,7 @@ const products = [
         reviews: 110,
         subcategoryId: 7
     },{
-        id: 7,
+        id: 40,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -759,7 +759,7 @@ const products = [
 
     // Women's sports
     {
-        id: 7,
+        id: 41,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -777,7 +777,7 @@ const products = [
         reviews: 110,
         subcategoryId: 8
     },{
-        id: 7,
+        id: 42,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -795,7 +795,7 @@ const products = [
         reviews: 110,
         subcategoryId: 8
     },{
-        id: 7,
+        id: 43,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -813,7 +813,7 @@ const products = [
         reviews: 110,
         subcategoryId: 8
     },{
-        id: 7,
+        id: 44,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -831,7 +831,7 @@ const products = [
         reviews: 110,
         subcategoryId: 8
     },{
-        id: 7,
+        id: 45,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -849,7 +849,7 @@ const products = [
         reviews: 110,
         subcategoryId: 8
     },{
-        id: 7,
+        id: 46,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -869,7 +869,7 @@ const products = [
     },
     // women's sneakers
     {
-        id: 7,
+        id: 47,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -887,7 +887,7 @@ const products = [
         reviews: 110,
         subcategoryId: 9
     },{
-        id: 7,
+        id: 48,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -905,7 +905,7 @@ const products = [
         reviews: 110,
         subcategoryId: 9
     },{
-        id: 7,
+        id: 49,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -923,7 +923,7 @@ const products = [
         reviews: 110,
         subcategoryId: 9
     },{
-        id: 7,
+        id: 50,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -941,7 +941,7 @@ const products = [
         reviews: 110,
         subcategoryId: 9
     },{
-        id: 7,
+        id: 51,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -959,7 +959,7 @@ const products = [
         reviews: 110,
         subcategoryId: 9
     },{
-        id: 7,
+        id: 52,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -980,7 +980,7 @@ const products = [
 
     //women's filp-flop
     {
-        id: 7,
+        id: 53,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -999,7 +999,7 @@ const products = [
         subcategoryId: 10
     },
     {
-        id: 7,
+        id: 54,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1018,7 +1018,7 @@ const products = [
         subcategoryId: 10
     },
     {
-        id: 7,
+        id: 55,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1037,7 +1037,7 @@ const products = [
         subcategoryId: 10
     },
     {
-        id: 7,
+        id: 56,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1056,7 +1056,7 @@ const products = [
         subcategoryId: 10
     },
     {
-        id: 7,
+        id: 57,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1077,7 +1077,7 @@ const products = [
 
     // women's Crocs
     {
-        id: 7,
+        id: 58,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1095,7 +1095,7 @@ const products = [
         reviews: 110,
         subcategoryId: 11
     }, {
-        id: 7,
+        id: 59,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1113,7 +1113,7 @@ const products = [
         reviews: 110,
         subcategoryId: 11
     }, {
-        id: 7,
+        id: 60,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1131,7 +1131,7 @@ const products = [
         reviews: 110,
         subcategoryId: 11
     }, {
-        id: 7,
+        id: 61,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1149,7 +1149,7 @@ const products = [
         reviews: 110,
         subcategoryId: 11
     }, {
-        id: 7,
+        id: 62,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
@@ -1169,7 +1169,7 @@ const products = [
     },
     // women's high-heels
     {
-        id: 7,
+        id: 63,
         name: "Sports Sandals",
         description: "Durable sandals for active kids.",
         brand: "Puma",
