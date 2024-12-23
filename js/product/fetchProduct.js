@@ -17,10 +17,10 @@ function fetchProductBySubcategory(subcategory){
     displayProduct(filteredProducts);
 }
 function displayProduct(products){
-    const productList=document.querySelector("body");
+    const productList=document.querySelector(".main");
 
     products.forEach(product => {
-        const productCard=document.querySelector(".product-card").cloneNode(true);
+        const productCard=document.querySelector(".container").cloneNode(true);
         
         productCard.querySelector(".product-image img").src="/html/src/"+product.imageUrls[0];
         productCard.querySelector(".product-image img").alt=product.name;

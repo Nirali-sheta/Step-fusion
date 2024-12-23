@@ -1,6 +1,6 @@
 
 const subcategories = [
-    { id: 1, name: "Sneakers", categoryId: 2, url: "men/sneakers/img2.jpg" },
+    { id: 1, name: "sneakers", categoryId: 2, url: "men/sneakers/img2.jpg" },
     { id: 2, name: "Formal", categoryId: 2, url: "men/formal/img1.jpg" },
     { id: 3, name: "Sport", categoryId: 2, url: "men/sport/img2.jpg" },
     { id: 4, name: "Sandal", categoryId: 2, url: "men/sandal/img4.jpg" },
@@ -13,10 +13,10 @@ const subcategories = [
     { id: 11, name: "Crocs", categoryId: 1, url: "women/crocs/img3.jpg" },
     { id: 12, name: "High-heels", categoryId: 1, url: "women/highheels/img5.jpg" },
     { id: 13, name: "Bridal", categoryId: 1, url: "women/bridal/img3.jpg" },
-    { id: 14, name: "Sneakers", categoryId: 3, url: "kid/sneaker/img4.jpg" },
-    { id: 15, name: "Sandal", categoryId: 3, url: "kid/sandal/img6.jpg" },
-    { id: 16, name: "Sport", categoryId: 3, url: "kid/sport/img4.jpg" },
-    { id: 17, name: "Crocs", categoryId: 3, url: "kid/crocs/img3.jpg" },
+    { id: 14, name: "Sneakers", categoryId: 3, url: "kids/sneaker/img4.jpg" },
+    { id: 15, name: "Sandal", categoryId: 3, url: "kids/sandal/img6.jpg" },
+    { id: 16, name: "Sport", categoryId: 3, url: "kids/sport/img4.jpg" },
+    { id: 17, name: "Crocs", categoryId: 3, url: "kids/crocs/img3.jpg" },
 ];
 
 export default subcategories;
