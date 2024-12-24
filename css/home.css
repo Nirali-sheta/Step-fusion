@@ -140,6 +140,7 @@ nav i:hover{
     width: auto;
     border-radius: 8px;
     margin-bottom: -160px;
+    margin-top: 100px;
 }
 
 .description-container{
@@ -150,45 +151,7 @@ nav i:hover{
     padding: 10px;
     margin-left: 150px;
 }
-/* .image-container{
-    flex: 1;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.image-container img{
-    width: 700px;
-    margin-top: 45px;
-    height: 600px;
-    max-width: 800px; 
-    border-radius: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.shoes-container{
-    margin-top: -60px;
-    display: flex;
-    height: 600px;
-    align-items: center;
-    justify-content: space-between;
-    gap: 100px;
-    padding: 5px;
-    background-color: white;
-    box-sizing: border-box;
-}
-
-.description-container{
-    flex: 1;
-    max-width: 800px;
-    padding: 20px;
-    align-items: center;
-    margin-left: 190px;
-    box-sizing: border-box;
-    
-} */
 .description-container2{
     display: flex;
     flex-direction: column;
