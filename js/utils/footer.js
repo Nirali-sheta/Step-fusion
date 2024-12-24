@@ -58,7 +58,7 @@ document.getElementById('footer').innerHTML=` <footer>
     </div>
     
     <div class="footer-bottom">
-        <p>&copy; 2024 Sole Stories. All Rights Reserved.</p>
+        <p>&copy; 2024 Step Fusion. All Rights Reserved.</p>
     </div>
   </div>
   </footer>`;
