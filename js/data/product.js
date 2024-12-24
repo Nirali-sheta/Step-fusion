@@ -1740,12 +1740,12 @@ const products = [
             material: "Rubber",
             stock: 40,
             imageUrls: [
-                "kids/sport/img5.jpg",
+                "kids/crocs/img1.jpg",
                 "https://example.com/images/sportssandals2.jpg"
             ],
             rating: 4.7,
             reviews: 110,
-            subcategoryId: 16
+            subcategoryId: 17
         }, {
             id: 93,
             name: "Sports Sandals",
