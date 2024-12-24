@@ -1167,7 +1167,7 @@ const products = [
         reviews: 110,
         subcategoryId: 11
     },
-    // women's high-heels
+    // women's High-heels
     {
         id: 63,
         name: "Sports Sandals",
@@ -1180,16 +1180,663 @@ const products = [
         material: "Rubber",
         stock: 40,
         imageUrls: [
-            "women/crocs/img5.jpg",
+            "women/highheels/img1.jpg",
             "https://example.com/images/sportssandals2.jpg"
         ],
         rating: 4.7,
         reviews: 110,
-        subcategoryId: 11
+        subcategoryId: 12
+    }, {
+        id: 64,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img2.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 12
+    }, {
+        id: 65,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img3.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 12
+    }, {
+        id: 67,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img4.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 12
+    }, {
+        id: 68,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img5.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 12
+    }, {
+        id: 69,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img6.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 12
+    },
+    //Bridal
+    {
+        id: 70,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img1.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
+    },{
+        id: 71,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/highheels/img2.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
+    },{
+        id: 71,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/bridal/img3.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
+    },{
+        id: 72,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/bridal/img4.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
+    },{
+        id: 73,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/bridal/img5.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
+    },{
+        id: 74,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "women/bridal/img6.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 13
     },
 
-
-
+    //Kids sneakers
+    {
+        id: 75,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img1.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    {
+        id: 76,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img2.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    {
+        id: 77,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img3.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    {
+        id: 78,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img4.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    {
+        id: 79,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img5.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    {
+        id: 80,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sneaker/img6.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 14
+    },
+    //Kids sandal
+    {
+        id: 81,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img1.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 82,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img2.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 83,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img3.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 84,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img4.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 85,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img5.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 86,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img6.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+    }, {
+        id: 87,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sandal/img7.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 15
+        },
+        //kids sport
+        {
+        id: 88,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sport/img1.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 16
+        },
+        {
+        id: 89,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sport/img2.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 16
+        },
+        {
+        id: 90,
+        name: "Sports Sandals",
+        description: "Durable sandals for active kids.",
+        brand: "Puma",
+        price: 29.99,
+        category: "Sports",
+        sizes: [10, 11, 12],
+        colors: ["Gray", "Blue"],
+        material: "Rubber",
+        stock: 40,
+        imageUrls: [
+            "kids/sport/img3.jpg",
+            "https://example.com/images/sportssandals2.jpg"
+        ],
+        rating: 4.7,
+        reviews: 110,
+        subcategoryId: 16
+        },
+        {
+            id: 91,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/sport/img4.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 16
+        },
+        {
+            id: 91,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/sport/img5.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 16
+        },
+        //kids Crocs
+        {
+            id: 92,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/sport/img5.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 16
+        }, {
+            id: 93,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/crocs/img2.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 17
+        }, {
+            id: 94,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/crocs/img3.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 17
+        }, {
+            id: 95,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/crocs/img4.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 17
+        }, {
+            id: 96,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/crocs/img5.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 17
+        }, {
+            id: 97,
+            name: "Sports Sandals",
+            description: "Durable sandals for active kids.",
+            brand: "Puma",
+            price: 29.99,
+            category: "Sports",
+            sizes: [10, 11, 12],
+            colors: ["Gray", "Blue"],
+            material: "Rubber",
+            stock: 40,
+            imageUrls: [
+                "kids/crocs/img6.jpg",
+                "https://example.com/images/sportssandals2.jpg"
+            ],
+            rating: 4.7,
+            reviews: 110,
+            subcategoryId: 17
+        }
 ];
 
 export default products;
