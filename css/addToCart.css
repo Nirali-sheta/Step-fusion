@@ -2,6 +2,9 @@
  *{
     font-family: "Quicksand","Arial","sans-serif";
  }
+  .container{
+  min-height: 300px;
+ } 
   
   .cart-page {
     width: 100%;
@@ -209,7 +212,7 @@
   background-color: rgb(243, 243, 243); 
   color: black;           
   border-radius: 8px;      
-  width: 100%;    
+  /* width: 100%;     */
   height: 30px;          
   margin-top: 0px;           
 }
