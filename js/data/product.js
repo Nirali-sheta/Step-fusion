@@ -1260,52 +1260,16 @@ const products = [
         subcategoryId: 12
     },
     //Bridal
-    {
-        id: 70,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
-        sizes: [10, 11, 12],
-        colors: ["Gray", "Blue"],
-        material: "Rubber",
-        stock: 40,
-        imageUrls: [
-            "women/highheels/img1.jpg",
-            "https://example.com/images/sportssandals2.jpg"
-        ],
-        rating: 4.7,
-        reviews: 110,
-        subcategoryId: 13
-    },{
+        {
         id: 71,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "bridal heels",
+        description: "elegent heels for bridal.",
+        brand: "metro",
+        price: 2999,
+        category: "bridal",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
-        stock: 40,
-        imageUrls: [
-            "women/highheels/img2.jpg",
-            "https://example.com/images/sportssandals2.jpg"
-        ],
-        rating: 4.7,
-        reviews: 110,
-        subcategoryId: 13
-    },{
-        id: 71,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
-        sizes: [10, 11, 12],
-        colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "synthetic",
         stock: 40,
         imageUrls: [
             "women/bridal/img3.jpg",
@@ -1316,14 +1280,14 @@ const products = [
         subcategoryId: 13
     },{
         id: 72,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "bridal heels",
+        description: "elegent heels for bridal.",
+        brand: "metro",
+        price: 3999,
+        category: "bridal",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "synthetic",
         stock: 40,
         imageUrls: [
             "women/bridal/img4.jpg",
@@ -1334,14 +1298,14 @@ const products = [
         subcategoryId: 13
     },{
         id: 73,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "bridal sandal",
+        description: "elegent heels for bridal.",
+        brand: "metro",
+        price: 1999,
+        category: "bridal",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "synthetic",
         stock: 40,
         imageUrls: [
             "women/bridal/img5.jpg",
@@ -1352,14 +1316,14 @@ const products = [
         subcategoryId: 13
     },{
         id: 74,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "bridal heels",
+        description: "elegent heels for bridal.",
+        brand: "metro",
+        price: 2999,
+        category: "bridal",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "synthetic",
         stock: 40,
         imageUrls: [
             "women/bridal/img6.jpg",
