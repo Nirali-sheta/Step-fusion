@@ -630,14 +630,14 @@ const products = [
     // Women's casual
     {
         id: 35,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "casual Sandals",
+        description: "Durable sandals for women.",
+        brand: "bata",
+        price: 899,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img1.jpg",
@@ -648,14 +648,14 @@ const products = [
         subcategoryId: 7
     },{
         id: 36,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "step heeled Sandals",
+        description: "stylish sandal in lilac color.",
+        brand: "",
+        price: 1999,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img2.jpg",
@@ -666,14 +666,14 @@ const products = [
         subcategoryId: 7
     },{
         id: 37,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "white flat",
+        description: "stylish flat in white color.",
+        brand: "metro",
+        price: 799,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img3.jpg",
@@ -684,14 +684,14 @@ const products = [
         subcategoryId: 7
     },{
         id: 38,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "sky flat",
+        description: "stylish flat in sky color.",
+        brand: "metro",
+        price: 799,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img4.jpg",
@@ -702,14 +702,15 @@ const products = [
         subcategoryId: 7
     },{
         id: 39,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "peach Sandals",
+        name: "peach flat",
+        description: "stylish flat in white color.",
+        brand: "metro",
+        price: 799,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img5.jpg",
@@ -720,14 +721,14 @@ const products = [
         subcategoryId: 7
     },{
         id: 40,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
-        category: "Sports",
+        name: "pearled flat",
+        description: "stylish flat in pearled sandal.",
+        brand: "metro",
+        price: 1099,
+        category: "casual",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/casual/img6.jpg",
@@ -741,10 +742,10 @@ const products = [
     // Women's sports
     {
         id: 41,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
+        name: "white sports",
+        description: "shoes for daily comfort wear.",
         brand: "Puma",
-        price: 29.99,
+        price: 999,
         category: "Sports",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
@@ -759,14 +760,14 @@ const products = [
         subcategoryId: 8
     },{
         id: 42,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
+        name: "Sports shoes",
+        description: "best shoes for running or gyming.",
+        brand: "fila",
+        price: 1999,
         category: "Sports",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/sport/img2.jpg",
@@ -777,14 +778,14 @@ const products = [
         subcategoryId: 8
     },{
         id: 43,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
-        price: 29.99,
+        name: "Sports for running",
+        description: "best shoes for running or gyming.",
+        brand: "sneakers",
+        price: 1099,
         category: "Sports",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "synthetic",
         stock: 40,
         imageUrls: [
             "women/sport/img3.jpg",
@@ -795,14 +796,14 @@ const products = [
         subcategoryId: 8
     },{
         id: 44,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
+        name: "lilac sports",
+        description: "shoes for chic look",
         brand: "Puma",
-        price: 29.99,
+        price: 2999,
         category: "Sports",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/sport/img4.jpg",
@@ -813,8 +814,8 @@ const products = [
         subcategoryId: 8
     },{
         id: 45,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
+        name: "Sports Shoe for women",
+        description: "Durable shoes for daily wear.",
         brand: "Puma",
         price: 29.99,
         category: "Sports",
@@ -831,14 +832,14 @@ const products = [
         subcategoryId: 8
     },{
         id: 46,
-        name: "Sports Sandals",
-        description: "Durable sandals for active kids.",
-        brand: "Puma",
+        name: "Sports shoe brown",
+        description: "Durable shoes for daily wear.",
+        brand: "sneakers",
         price: 29.99,
         category: "Sports",
         sizes: [10, 11, 12],
         colors: ["Gray", "Blue"],
-        material: "Rubber",
+        material: "soft-leather",
         stock: 40,
         imageUrls: [
             "women/sport/img6.jpg",
