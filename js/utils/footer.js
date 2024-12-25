@@ -49,9 +49,13 @@ document.getElementById('footer').innerHTML=` <footer>
             <div class="follow-us">
               <h4>Follow Us</h4>
               <div class="social-icons">
-                  <a href="https://facebook.com"><img src="/html/src/social/facebook.png" alt="Facebook" class="social-icon"></a>
-                  <a href="https://instagram.com"><img src="/html/src/social/instagram.png" alt="Instagram" class="social-icon"></a>
-                  <a href="https://twitter.com"><img src="/html/src/social/twitter.png" alt="Twitter" class="social-icon"></a>
+                  <div class="social-icon1">
+                  <a href="https://facebook.com">
+                  <img src="/html/src/social/facebook.png" alt="Facebook" class="social-icon">
+                  </a></div>
+                  <div class="social-icon1"> <a href="https://instagram.com"><img src="/html/src/social/instagram.png" alt="Instagram" class="social-icon"></a></div>
+                  <div class="social-icon1"><a href="https://twitter.com"><img src="/html/src/social/twitter.png" alt="Twitter" class="social-icon"></a></div>
+                 
               </div>
             </div>
         </div>
