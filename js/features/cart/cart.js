@@ -102,9 +102,10 @@ function displayProductInCart() {
 
             localStorage.setItem('cart',JSON.stringify(cart));
             cartItem.remove();
-
+            
             if(cart.length===0){
-                container.innerHTML="<p>Your Cart is empty!!</p>";
+                container.innerHTML="<p> class='empty-cart-message'>Your Cart is empty!!</p>";
+
             };
             updateTotalAmt();
         });
