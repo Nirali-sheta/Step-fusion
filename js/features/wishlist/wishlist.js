@@ -34,8 +34,7 @@ function displayProductIntoWishlist(){
             removeFromWishlist(product);
             productCard.remove();
             if(wishlistContainer.children.length===0){
-                wishlistContainer.innerHTML="<p>Your wishlist is empty!!</p>";
-                wishlistContainer.classList.add('empty-message');
+                wishlistContainer.innerHTML="<p class='empty-message'>Your wishlist is empty!!</p>";
             }
            
         });
