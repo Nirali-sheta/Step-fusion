@@ -40,10 +40,7 @@ function displayProductIntoWishlist(){
            
         });
         
-        // const cart=productCard.querySelector(".cart-btn");
-        // cart.addEventListener("click",function(){
-        //     addToCart(product);
-        // })
+        
         wishlistContainer.appendChild(productCard);
        
     })

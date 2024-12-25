@@ -217,4 +217,8 @@
   margin-top: 0px;           
 }
 
-
+@media (min-width:1600px){
+  .container{
+    min-height:578px;
+  }
+}

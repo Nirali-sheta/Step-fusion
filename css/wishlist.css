@@ -79,7 +79,7 @@
     border: 1px solid #000;
   }
   .empty-message {
-    width: 218vh;
+    width: 213vh;
     height: 30px;
     margin-left: -40px;
     margin-top: -20px;
@@ -90,3 +90,14 @@
     color: black;   
 
   }
+
+
+
+@media (min-width:1600px){
+  .wishlist-container{
+    min-height:540px;
+  }
+  .empty-message{
+    width: 201vh;
+  }
+}
