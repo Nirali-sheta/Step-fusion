@@ -54,6 +54,7 @@ function displayProduct(products){
                 addTocart(product);
             }
             else{
+                location.href='/html/forms/login.html';
             }
         })
         productList.appendChild(productCard);

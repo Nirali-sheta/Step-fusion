@@ -8,7 +8,6 @@ const productId=params.get('product');
 
 function fetchProductDetails(){
     const product=products.find(product=>product.id==productId);
-    console.log(product);
 
     document.querySelector('img').src="/html/src/"+product.imageUrls[0];
     document.querySelector('img').alt=product.name;
