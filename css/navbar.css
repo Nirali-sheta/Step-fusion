@@ -134,6 +134,7 @@ nav i{
     border-radius: 50%;
     cursor: pointer;
     padding: 2px;
+    line-height: normal !important;
     position: relative;
 }
 

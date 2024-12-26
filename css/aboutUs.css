@@ -21,10 +21,10 @@ h1 {
 p {
     margin-bottom: 15px;
 }
-.highlight {
-    color: black;
-    font-weight: bold;
-}
+    .highlight {
+        color: black;
+        font-weight: bold;
+    }
 .cta {
     text-align: center;
     margin-top: 30px;

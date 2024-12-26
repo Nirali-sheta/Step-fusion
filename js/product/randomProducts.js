@@ -8,7 +8,6 @@ const card=document.querySelector('.product-card');
 function renderProducts(products){
     products.forEach(product => {
         const productCard=card.cloneNode(true);
-       
         productCard.querySelector('.product-image img').src="/html/src/"+product.imageUrls[0];
         productCard.querySelector('.product-image a').href = `/html/productInfo/productDetails.html?product=${product.id}`;
         productCard.querySelector(".product-image img").alt = product.name;
@@ -23,17 +22,14 @@ function renderProducts(products){
         const user=localStorage.getItem('loggedInUser');
         cartbtn.addEventListener('click',()=>{
             if(user){
-                addTocart(product);
-            }
+                addTocart(product);}
             else{
                 location.href='/html/forms/login.html';
             }
         })
-        trending.appendChild(productCard);
-        
+        trending.appendChild(productCard);    
         card.remove();
     });
 }
-
 const randomProducts=products.sort(()=>Math.random()-0.5).slice(0,12);
 renderProducts(randomProducts);

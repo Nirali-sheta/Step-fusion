@@ -134,7 +134,6 @@ button:hover {
     background-color:rgb(31, 120, 31);
 }
 
-
 @media (max-width: 1024px) {
     .container {
         margin-left: 10px; 
@@ -160,7 +159,6 @@ button:hover {
         gap: 10px;
     }
 }
-
 
 @media (max-width: 480px) {
     .basicinfo {

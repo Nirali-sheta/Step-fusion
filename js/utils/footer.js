@@ -1,10 +1,8 @@
-
 document.getElementById('footer').innerHTML=` <footer>
     <div class="footer-container">
         <!-- Quick Links -->
         <div class="footer-section">
-            <div class="quick">
-  
+            <div class="quick"> 
               <h4>Site Menu</h4>
               <ul>
                 <li><a href="#">Shop</a></li>
@@ -13,12 +11,9 @@ document.getElementById('footer').innerHTML=` <footer>
               </ul>
             </div>
         </div>
-      
-  
         <!-- Contact Us -->
         <div class="footer-section">
-            <div class="useful-links">
-  
+            <div class="useful-links"> 
               <h4>Useful Links</h4>
               <ul>
                 <li><a href="/html/pages/addToCart.html">Add to Cart</a></li>
@@ -54,13 +49,11 @@ document.getElementById('footer').innerHTML=` <footer>
                   <img src="/html/src/social/facebook.png" alt="Facebook" class="social-icon">
                   </a></div>
                   <div class="social-icon1"> <a href="https://instagram.com"><img src="/html/src/social/instagram.png" alt="Instagram" class="social-icon"></a></div>
-                  <div class="social-icon1"><a href="https://twitter.com"><img src="/html/src/social/twitter.png" alt="Twitter" class="social-icon"></a></div>
-                 
+                  <div class="social-icon1"><a href="https://twitter.com"><img src="/html/src/social/twitter.png" alt="Twitter" class="social-icon"></a></div>                 
               </div>
             </div>
         </div>
-    </div>
-    
+    </div>    
     <div class="footer-bottom">
         <p>&copy; 2024 Step Fusion. All Rights Reserved.</p>
     </div>

@@ -76,7 +76,6 @@ function displayProductInCart() {
                 qtyInput.value = 1; 
             }
         }
-
         // increasing and decreasing qty
         qtyInput.addEventListener('input', updateProductTotal);
         decreaseBtn.addEventListener('click', () => {
@@ -102,7 +101,7 @@ function displayProductInCart() {
 
             localStorage.setItem('cart',JSON.stringify(cart));
             cartItem.remove();
-            
+
             if(cart.length===0){
                 container.innerHTML="<p> class='empty-cart-message'>Your Cart is empty!!</p>";
 

@@ -45,7 +45,6 @@ function displayProduct(products){
                         
         })
         const user=localStorage.getItem('loggedInUser');
-
         // Add to Cart
         const cartbtn=productCard.querySelector(".product-buttons .cart-btn");
 
@@ -58,10 +57,7 @@ function displayProduct(products){
             }
         })
         productList.appendChild(productCard);
-    
     });
     document.querySelector(".container").remove();
 }
-
-
 fetchProductBySubcategory(subcategory);

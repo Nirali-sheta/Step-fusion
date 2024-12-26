@@ -24,23 +24,18 @@ function validateBasicInfo(){
         firstnameError.innerHTML='Fisrt name must contain alphabets!';
         firstnameError.classList.add('show');
         isvalid=false;
-
     }
     else{
-        firstnameError.classList.remove('show');
-       
+        firstnameError.classList.remove('show');    
     }
-
     // last name validation
     if(lastname && (!lastname.match(/[A-Za-z]+$/))){
         lastnameError.innerHTML='Last name must contain alphabets!';
         lastnameError.classList.add('show');
         isvalid=false;
-
     }
     else{
-        lastnameError.classList.remove('show');
-     
+        lastnameError.classList.remove('show');     
     }
     
     // mobile validation
@@ -89,21 +84,16 @@ function validateBasicInfo(){
         dobError.innerHTML="Date of birth required!";
         dobError.classList.add("show");
         isvalid=false;
-
-
     }
 
     else if(!(age>=18)){
         dobError.innerHTML="Age less than 18 not allowed!";
         dobError.classList.add("show");
         isvalid=false;
-
      }
     else{
         dobError.classList.remove("show");
     }
-  
-
     // gender validation
     if(!gender){
         genderError.innerHTML="Gender is required!";
