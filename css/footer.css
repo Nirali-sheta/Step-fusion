@@ -95,7 +95,7 @@ footer {
 .social-icons {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
 }
 
 .social-icons a:hover {
@@ -105,7 +105,7 @@ footer {
 
 .social-icons a {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     width: 40px; 
     height: 40px;
@@ -116,7 +116,7 @@ footer {
 
 .social-icons img {
     margin-top: -4px;
-    width: auto; 
+    width: 30px; 
     height: 100%; 
     object-fit: contain; 
 }

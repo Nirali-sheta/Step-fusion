@@ -5,7 +5,7 @@ const userIcon = document.querySelector('.userlogo a i');
 document.addEventListener("DOMContentLoaded", function() {
     // Check if the current page is not login.html or registration.html
     if (!window.location.pathname.includes('/html/forms/login.html') && !window.location.pathname.includes('/html/forms/registration.html')) {
-        fetch('/html/components/navbar.html')  // Path to your navbar component
+        fetch('/html/components/navbar.html')  
             .then(response => response.text())
             .then(data => {
                 document.body.insertAdjacentHTML('afterbegin', data);  
