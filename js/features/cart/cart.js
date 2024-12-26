@@ -108,6 +108,12 @@ function displayProductInCart() {
             };
             updateTotalAmt();
         });
+
+        const placeBtn=document.querySelector('.place-order-btn');
+        placeBtn.addEventListener('click',()=>{
+            alert("Your order is placed successfully");
+            location.href="/html/pages/orderPage.html";
+        })
     });
 
 
